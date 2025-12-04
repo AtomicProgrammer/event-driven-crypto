@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68.0", "wheel"]
-build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta" 
 
 [project]
 name = "event-driven-crypto"
@@ -8,6 +8,9 @@ version = "0.1.0"
 description = "一个基于事件驱动的加密货币项目"
 readme = "README.md"
 requires-python = ">=3.14"
+dependencies = [
+    "python-binance>=1.0.19",
+]
 authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
