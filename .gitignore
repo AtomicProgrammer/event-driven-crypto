@@ -134,3 +134,14 @@ dmypy.json
 Thumbs.db
 
 data/market.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
